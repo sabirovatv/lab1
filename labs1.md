@@ -60,16 +60,16 @@ tar -xvzf boost_1_69_0.tar.gz -C ~/
 
     ❯ find ~/boost_1_69_0 -type f -name "any.hpp"
     
-    /home/toma/boost_1_69_0/boost/type_erasure/any.hpp
-    /home/toma/boost_1_69_0/boost/proto/detail/any.hpp
-    /home/toma/boost_1_69_0/boost/spirit/home/support/algorithm/any.hpp
-    /home/toma/boost_1_69_0/boost/xpressive/detail/utility/any.hpp
-    /home/toma/boost_1_69_0/boost/any.hpp
-    /home/toma/boost_1_69_0/boost/hana/fwd/any.hpp
-    /home/toma/boost_1_69_0/boost/hana/any.hpp
-    /home/toma/boost_1_69_0/boost/fusion/include/any.hpp
-    /home/toma/boost_1_69_0/boost/fusion/algorithm/query/detail/any.hpp
-    /home/toma/boost_1_69_0/boost/fusion/algorithm/query/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/type_erasure/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/proto/detail/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/spirit/home/support/algorithm/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/xpressive/detail/utility/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/hana/fwd/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/hana/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/fusion/include/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/fusion/algorithm/query/detail/any.hpp
+    /home/sabirovatv/boost_1_69_0/boost/fusion/algorithm/query/any.hpp
 
 
 
@@ -89,7 +89,7 @@ tar -xvzf boost_1_69_0.tar.gz -C ~/
 Результат
 #
  
-   -[result](https://raw.githubusercontent.com/toma/toma/refs/heads/main/log.txt)
+   -[result](https://raw.githubusercontent.com/sabirovatv/sabirovatv/refs/heads/main/log.txt)
 #
 
 ### **8. Компиляция Boost**
@@ -120,26 +120,26 @@ tar -xvzf boost_1_69_0.tar.gz -C ~/
 
     ❯ du -sh ~/boost-libs/*
     
-    4,0K	/home/toma/boost-libs/libboost_atomic.a
-    152K	/home/toma/boost-libs/libboost_container.a
-    24K	/home/toma/boost-libs/libboost_context.a
-    328K	/home/toma/boost-libs/libboost_contract.a
-    152K	/home/toma/boost-libs/libboost_date_time.a
-    236K	/home/toma/boost-libs/libboost_fiber.a
-    416K	/home/toma/boost-libs/libboost_filesystem.a
-    836K	/home/toma/boost-libs/libboost_graph.a
-    472K	/home/toma/boost-libs/libboost_iostreams.a
-    212K	/home/toma/boost-libs/libboost_prg_exec_monitor.a
-    1,6M	/home/toma/boost-libs/libboost_program_options.a
-    80K	/home/toma/boost-libs/libboost_random.a
-    3,2M	/home/toma/boost-libs/libboost_regex.a
-    1,2M	/home/toma/boost-libs/libboost_serialization.a
-    40K	/home/toma/boost-libs/libboost_stacktrace_addr2line.a
-    16K	/home/toma/boost-libs/libboost_stacktrace_basic.a
-    4,0K	/home/toma/boost-libs/libboost_stacktrace_noop.a
-    2,3M	/home/toma/boost-libs/libboost_unit_test_framework.a
-    4,5M	/home/toma/boost-libs/libboost_wave.a
-    788K	/home/toma/boost-libs/libboost_wserialization.a
+    4,0K	/home/sabirovatv/boost-libs/libboost_atomic.a
+    152K	/home/sabirovatv/boost-libs/libboost_container.a
+    24K	/home/sabirovatv/boost-libs/libboost_context.a
+    328K	/home/sabirovatv/boost-libs/libboost_contract.a
+    152K	/home/sabirovatv/boost-libs/libboost_date_time.a
+    236K	/home/sabirovatv/boost-libs/libboost_fiber.a
+    416K	/home/sabirovatv/boost-libs/libboost_filesystem.a
+    836K	/home/sabirovatv/boost-libs/libboost_graph.a
+    472K	/home/sabirovatv/boost-libs/libboost_iostreams.a
+    212K	/home/sabirovatv/boost-libs/libboost_prg_exec_monitor.a
+    1,6M	/home/sabirovatv/boost-libs/libboost_program_options.a
+    80K	/home/sabirovatv/boost-libs/libboost_random.a
+    3,2M	/home/sabirovatv/boost-libs/libboost_regex.a
+    1,2M	/home/sabirovatv/boost-libs/libboost_serialization.a
+    40K	/home/sabirovatv/boost-libs/libboost_stacktrace_addr2line.a
+    16K	/home/sabirovatv/boost-libs/libboost_stacktrace_basic.a
+    4,0K	/home/sabirovatv/boost-libs/libboost_stacktrace_noop.a
+    2,3M	/home/sabirovatv/boost-libs/libboost_unit_test_framework.a
+    4,5M	/home/sabirovatv/boost-libs/libboost_wave.a
+    788K	/home/sabirovatv/boost-libs/libboost_wserialization.a
 
 
 ## 11. Топ-10 самых тяжёлых файлов
@@ -153,16 +153,16 @@ tar -xvzf boost_1_69_0.tar.gz -C ~/
 
     ❯ du -sh ~/boost-libs/* | sort -hr | head -10
     
-    4,5M	/home/toma/boost-libs/libboost_wave.a
-    3,2M	/home/toma/boost-libs/libboost_regex.a
-    2,3M	/home/toma/boost-libs/libboost_unit_test_framework.a
-    1,6M	/home/toma/boost-libs/libboost_program_options.a
-    1,2M	/home/toma/boost-libs/libboost_serialization.a
-    836K	/home/toma/boost-libs/libboost_graph.a
-    788K	/home/toma/boost-libs/libboost_wserialization.a
-    472K	/home/toma/boost-libs/libboost_iostreams.a
-    416K	/home/toma/boost-libs/libboost_filesystem.a
-    328K	/home/toma/boost-libs/libboost_contract.a
+    4,5M	/home/sabirovatv/boost-libs/libboost_wave.a
+    3,2M	/home/sabirovatv/boost-libs/libboost_regex.a
+    2,3M	/home/sabirovatv/boost-libs/libboost_unit_test_framework.a
+    1,6M	/home/sabirovatv/boost-libs/libboost_program_options.a
+    1,2M	/home/sabirovatv/boost-libs/libboost_serialization.a
+    836K	/home/sabirovatv/boost-libs/libboost_graph.a
+    788K	/home/sabirovatv/boost-libs/libboost_wserialization.a
+    472K	/home/sabirovatv/boost-libs/libboost_iostreams.a
+    416K	/home/sabirovatv/boost-libs/libboost_filesystem.a
+    328K	/home/sabirovatv/boost-libs/libboost_contract.a
 
 
 
