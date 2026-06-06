@@ -3,6 +3,43 @@
 ### **1. Скачивание Boost**
 wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
 
+Команда для скачивания:
+
+```bash
+wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
+```
+Результат выполнения программы:
+
+```bash
+--2026-06-06 23:03:37--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
+Распознаётся sourceforge.net (sourceforge.net)… 104.18.13.149, 104.18.12.149, 2606:4700::6812:d95, ...
+Подключение к sourceforge.net (sourceforge.net)|104.18.13.149|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 301 Moved Permanently
+Адрес: https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/ [переход]
+--2026-06-06 23:03:38--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/
+Повторное использование соединения с sourceforge.net:443.
+HTTP-запрос отправлен. Ожидание ответа… 301 Moved Permanently
+Адрес: https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/download [переход]
+--2026-06-06 23:03:38--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/download
+Повторное использование соединения с sourceforge.net:443.
+HTTP-запрос отправлен. Ожидание ответа… 302 Found
+Адрес: https://downloads.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?ts=gAAAAABqJH0a_txZAd-ZjKYTM9QJHlBcAP34EyrdV1wvRD25U4UC85UhMrKQRR3g9nYPJJ0bGeHoegq1u30jznYCm7Yd1cP2Kw%3D%3D&use_mirror=altushost-swe&r= [переход]
+--2026-06-06 23:03:39--  https://downloads.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?ts=gAAAAABqJH0a_txZAd-ZjKYTM9QJHlBcAP34EyrdV1wvRD25U4UC85UhMrKQRR3g9nYPJJ0bGeHoegq1u30jznYCm7Yd1cP2Kw%3D%3D&use_mirror=altushost-swe&r=
+Распознаётся downloads.sourceforge.net (downloads.sourceforge.net)… 104.18.12.149, 104.18.13.149, 2606:4700::6812:d95, ...
+Подключение к downloads.sourceforge.net (downloads.sourceforge.net)|104.18.12.149|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 302 Found
+Адрес: https://altushost-swe.dl.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?viasf=1&fid=0b04351a8c20a7ca [переход]
+--2026-06-06 23:03:39--  https://altushost-swe.dl.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?viasf=1&fid=0b04351a8c20a7ca
+Распознаётся altushost-swe.dl.sourceforge.net (altushost-swe.dl.sourceforge.net)… 79.142.76.130
+Подключение к altushost-swe.dl.sourceforge.net (altushost-swe.dl.sourceforge.net)|79.142.76.130|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: 111710205 (107M) [application/x-gzip]
+Сохранение в: «boost_1_69_0.tar.gz»
+
+boost_1_69_0.tar.gz 100%[===================>] 106,53M   834KB/s    за 2m 34s  
+
+2026-06-06 23:06:15 (707 KB/s) - «boost_1_69_0.tar.gz» сохранён [111710205/111710205]
+```
 ### **2 Разархивирование**
 tar -xvzf boost_1_69_0.tar.gz -C ~/
 
