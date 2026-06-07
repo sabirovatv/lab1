@@ -135,7 +135,8 @@ tar -xvzf boost_1_69_0.tar.gz -C ~/
     cd ~/boost_1_69_0  && ./bootstrap.sh && ./b2
 
 # Результат 
-Мы установили boot  успешно (Я не смогу положить это сюда ибо тут будет больше 10000+ строчек :с )
+[build_output.txt](https://github.com/sabirovatv/lab1/blob/main/build_output.txt)
+
 ## 9. Перемещение статических библиотек
 
 # Команда
