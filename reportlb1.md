@@ -125,7 +125,7 @@ tar -xvzf boost_1_69_0.tar.gz -C ~/
 Результат
 #
  
-   -[result](https://raw.githubusercontent.com/sabirovatv/lab1/refs/heads/main/log.txt?token=GHSAT0AAAAAAD62LAJYAJIXQ4OCCHZ6UU4C2RATMRQ)
+   -[result](https://raw.githubusercontent.com/sabirovatv/lab1/refs/heads/main/log.txt)
 #
 
 ### **8. Компиляция Boost**
